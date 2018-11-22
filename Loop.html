@@ -24,7 +24,12 @@
         }
 // while
 var x = 0;
-        while (x < 1) {
+        while (x < 1) { 
+            var y = x++;
+            console.log(y);
+            if ( y < 10) {
+                x = 2;                
+            }
 
         }
 
