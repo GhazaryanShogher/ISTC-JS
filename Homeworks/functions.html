@@ -15,13 +15,10 @@
             switch (action) {
             case "+":
             return parametr1 + parametr2;
-            break;
             case "-":
             return parametr1 - parametr2;
-            break;
             case "*":
             return parametr1 * parametr2;
-            break;
             case "/":
             if (parametr2 != 0) {
             return parametr1 / parametr2;
@@ -30,7 +27,6 @@
             return parametr1*parametr2/100;
             default: 
             return "Second parametr is not action";
-            break;
             }
           } else return "First and thrdth parametrs must be numbers";
      }     
@@ -44,10 +40,10 @@
             if (typeof parametr1 == "number" && typeof parametr2 == "number" && typeof parametr3 == "number") {
                 var sum = parametr1 + parametr2 + parametr3;
                 console.log ("sum = ", sum);
-            } else if (typeof parametr1 == "string" || typeof parametr2 == "string" || typeof parametr3 == "string") {
+            } else if (typeof parametr1 == "string" && typeof parametr2 == "string" && typeof parametr3 == "string") {
                 var text = parametr1  + parametr2 + parametr3;
                 console.log(text);
-            } else console.log("Parametrs must be number or string");
+            } else console.log("All parametrs must be number or string");
         }
         typeofParametrs(5,2,8);
 
