@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+   // checking if number is prime
+   function isPrime(number){
+       if (number == 2){
+           return "Number is prime";
+       }
+       for (i=2; i<number; i++){
+           if (number % i == 0){
+            return "Number is not prime";
+           } else return "Number is prime";
+       }
+   }
+   console.log(isPrime(10));
+   console.log(isPrime(7));
+   // checking type
+   function checkType(number) {
+       var objTypes = {
+           number: "number",
+           string: "string",
+           object: "object",
+           boolean: "boolean",
+           function: "function"
+
+       };
+       var typeOfNumber = typeof(number);
+       var key;
+       for(key in objTypes) {
+           if (typeOfNumber == objTypes[key])
+        return typeOfNumber;
+       }
+   }
+   console.log(checkType(true));
+
+   //
+   </script> 
+</body>
+</html>
