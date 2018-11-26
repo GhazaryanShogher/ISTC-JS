@@ -40,7 +40,28 @@
    }
    console.log(checkType(true));
 
-   //
+   //sqrt
+   function mySqrt (number) {
+       if (typeof(number) == "number") {
+        var sqrtOfNumber = number * number;
+        return sqrtOfNumber;
+       }  else alert("please enter a number");     
+       
+   }
+   console.log (mySqrt("jdh"));
+
+   // create object
+   function creatObj (par1,par2,par3) {
+       var obj = {
+        name:par1,
+        surname:par2,
+        age:par3
+        }
+        return obj;
+   }  
+   console.log(creatObj("Karen","Ghazaryan","25"));
+
+   
    </script> 
 </body>
 </html>
