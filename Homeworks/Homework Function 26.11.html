@@ -10,15 +10,21 @@
    <script>
    // checking if number is prime
    function isPrime(number){
-       if (number == 2){
-           return "Number is prime";
-       }
+       var cnt = 0;
+       if (number == 1){
+           return "Number is not prime";
+       } else {
        for (i=2; i<number; i++){
            if (number % i == 0){
+               cnt ++;
+           }
+           if (cnt > 2) {
             return "Number is not prime";
            } else return "Number is prime";
+           }
        }
    }
+   console.log(isPrime(3));
    console.log(isPrime(10));
    console.log(isPrime(7));
    // checking type
@@ -28,8 +34,8 @@
            string: "string",
            object: "object",
            boolean: "boolean",
-           function: "function"
-
+           function: "function",
+           undef: "undefined"
        };
        var typeOfNumber = typeof(number);
        var key;
@@ -38,7 +44,7 @@
         return typeOfNumber;
        }
    }
-   console.log(checkType(true));
+   console.log('3',checkType(true));
 
    //sqrt
    function mySqrt (number) {
