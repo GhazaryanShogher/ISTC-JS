@@ -45,7 +45,7 @@
        }
    }
    console.log('3',checkType(true));
-
+   isNaN("0l") 
    //sqrt
    function mySqrt (number) {
        if (typeof(number) == "number") {
@@ -66,8 +66,16 @@
         return obj;
    }  
    console.log(creatObj("Karen","Ghazaryan","25"));
-
+   var x = 123;
+   var y = new Number(123);
+   z = new String(123);
+   console.log("z",typeof(z));
+   console.log("y",typeof(y));
+   console.log("x",typeof(x));
+   console.log("2",x == y)
+   console.log("1",x === y)
+   console.log(Number.isNaN(10/"aa"));
    
    </script> 
 </body>
-</html>
+</html> 
