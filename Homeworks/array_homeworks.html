@@ -38,12 +38,18 @@ mostFrequentItem([7, 'a', 'a', 'a', 2, 7, 'a', 7, 'a', 2, 4, 9, 7]);
 //return the integer valuse of array
 function integerValues(arr){
     var newArr = [];
+    var sum = 0;
+    var product = 1;
     for (var i = 0; i< arr.length;i++){
         if (Number.isInteger(arr[i])){
             newArr.push(arr[i]);
+            sum +=arr[i];
+            product *= arr[i];
         }
     }
     console.log(newArr);
+    console.log("sum = ",sum);
+    console.log("product = ",product);
 }
 
 integerValues([3,2.3,4.2,6,8,2,5]);
