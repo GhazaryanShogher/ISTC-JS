@@ -1,0 +1,24 @@
+table, th, td, caption {
+    border-bottom: 0.1px solid #66D3B6;
+    border-collapse: collapse;
+    padding: 15px 60px;
+    color: white;
+    background-color: #25C098;
+}
+tr td:not(:last-child), tr th{    
+    text-align: left;
+}
+span {
+    color: red;
+}
+tr:last-child{
+    text-align: center;
+    height: 100px;
+}
+caption{
+    font-size: 30px;
+}
+
+tr th{
+    background-color: #66D3B6;
+}
