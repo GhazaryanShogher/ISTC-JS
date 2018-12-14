@@ -1,0 +1,46 @@
+span {
+    color:#B8B53E;
+}
+h1{
+   color: #429FCD;
+   text-align: center;
+}
+.different{
+    color: #F9667A;
+}
+body{
+    background-color: black;
+}
+tr th {
+    color: #18546F;
+    background-color: #1F2739;
+    padding-left: 15px;
+}
+table, th, td, caption {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px 120px 15px 15px;
+    color:#898695;
+}
+tr:nth-child(even){
+    background-color:#323C50;
+}
+tr:nth-child(odd){
+    background-color: #2C3446;
+}
+tr td:first-child{
+    color: #A55468;
+}
+table{
+    margin: 0 auto;
+}
+.marginCenter{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.marginCenter span{
+    
+}
+.marginCenter span:first-child{
+    color: #8A4559;
+}
