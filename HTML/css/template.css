@@ -1,0 +1,25 @@
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+.first{
+    background-color:#C4112F;
+    padding: 2%;
+}
+.second{
+    background-color: #154468;
+    padding: 2%;
+}
+.first h1, h3{
+    color: #2168A2;
+    text-align: center;
+}
+.left, .right{
+    display: inline-block;
+    background-color: white;
+}
+.left{
+    float: left;
+    margin-right: 2%;
+    padding: 1%;
+}
