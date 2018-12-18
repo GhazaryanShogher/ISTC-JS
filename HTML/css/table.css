@@ -22,3 +22,6 @@ caption{
 tr th{
     background-color: #66D3B6;
 }
+table{
+    margin: 0 auto;
+}

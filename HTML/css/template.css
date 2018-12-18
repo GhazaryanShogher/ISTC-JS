@@ -1,14 +1,26 @@
-.content{
-    width: 70%;
-    margin: 0 auto;
+html, body, .content{
+    height: 100%;
+    width: 100%;
 }
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
 .first{
     background-color:#C4112F;
-    padding: 2%;
+    padding: 1%;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    box-sizing: border-box;
 }
 .second{
     background-color: #154468;
-    padding: 2%;
+    padding: 1%;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
 }
 .first h1, h3{
     color: #2168A2;
@@ -21,12 +33,14 @@
     background-color: white;
 }
 .left{
-    float: left;
-    margin-right: 2%;
-    width: 35%
+    /* float: left; */
+    margin-right: 1%;    
+    box-sizing: border-box;
+    height: 38%;
+    /* width: 35% */
 }
 .right{
-    width: 60%;
+    width: 76%;
 }
 .first h1::first-letter{
     font-size: 48px;
@@ -46,13 +60,14 @@
     border-left: none;
 }
 .left img{
-    position: fixed;
-    top: 17%;
-    left: 21%;
+    position: absolute;
+    top: 21%;
+    left: 6%;
     width: 15%;
 }
 .right img{
     width: 100%;
+    height: 30vh;
 }
 .icones{
     background-color: #E2E2E2;
@@ -73,7 +88,7 @@
 .icones i{
     color: #636363;
 }
-.icons button {
+.icones button {
     background-color: #A71237;
     text-align: center;
     width: 93%;
