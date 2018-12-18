@@ -47,7 +47,7 @@
 }
 .left img{
     position: fixed;
-    top: 26%;
+    top: 17%;
     left: 21%;
     width: 15%;
 }
@@ -67,9 +67,16 @@
 .icones p{
     margin-top: 2px;
     color: #A71137;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
 }
 .icones i{
     color: #636363;
+}
+.icons button {
+    background-color: #A71237;
+    text-align: center;
+    width: 93%;
+    padding: 2%;
+    border-radius: 7px;
 }
