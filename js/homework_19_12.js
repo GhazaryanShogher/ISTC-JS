@@ -1,3 +1,4 @@
+//find the first unique element in  string
 var str = 'abacddbec';
 var arr1 = str.split('');
 var cnt = 0;
