@@ -8,10 +8,11 @@ body, html,.wrapper{
     background-image: url("../images/comp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    /* background-position: 50% 50%; */
     width: 100%;
-    height: 77%;
-    padding-top: 6%;
+    height: 92.6%;
+    position: relative;
+    /* padding-top: 6%; */
 }
 
 a{
@@ -36,6 +37,10 @@ p{
 }
 .main> div{
     text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 /* social media icons */
 .icon{
