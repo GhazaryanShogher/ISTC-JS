@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/form.css">
     <title>Forms</title>
 </head>
 <body>
-    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <!-- <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
         <fieldset>
           <legend>Personal information:</legend>
           First name:<br>
@@ -36,6 +37,37 @@
             <br><br>
             <input type="submit">
         </fieldset>       
+    </form> -->
+    <form action="/">
+        <fieldset>
+            <legend>Registration page</legend>
+            <label for="">Name
+                <div>
+                    <input type="text"  required>
+                </div>
+                
+            </label>
+            <label for="">Email ID:
+                <div>
+                    <input type="email" required>
+                </div>
+            </label>
+            <label for="">Mobile No
+                <div>
+                    <input type="tel" maxlength="9">
+                </div>
+            </label>
+            <label for="">Password
+                <div>
+                    <input type="password">
+                </div>
+            </label>
+            <label >
+                <div class="btn">
+                    <input type="submit" value="Register">
+                </div>
+            </label>
+        </fieldset>
     </form>
 </body>
 </html>
