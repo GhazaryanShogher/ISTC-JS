@@ -7,7 +7,7 @@
     <title>Forms</title>
 </head>
 <body>
-    <form action="/action_page.php">
+    <form action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
         <fieldset>
           <legend>Personal information:</legend>
           First name:<br>
@@ -27,6 +27,14 @@
           <textarea name="message" rows="10" cols="30">
             The cat was playing in the garden.
             </textarea>
+            0
+            <input type="range"  id="a" name="a" value="50">
+             100 +
+             <input type="number" id="b" name="b" value="50">
+             =
+             <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
         </fieldset>       
     </form>
 </body>
