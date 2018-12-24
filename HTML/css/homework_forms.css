@@ -20,3 +20,10 @@ fieldset{
 input {
     margin-bottom: 2%;
 }
+legend{
+    padding: 3%;
+    margin:3%;
+}
+a{
+    color:#556B2F;
+}
