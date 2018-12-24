@@ -24,6 +24,8 @@ input {
 legend{
     padding: 3%;
     margin:3%;
+    font-size: 28px;
+    font-weight: 700;
 }
 a{
     color:#556B2F;
