@@ -1,6 +1,8 @@
 fieldset{
     width: 15%;
     margin: 0 auto;
+    background-color: #191919;
+    color: white;
 }
 
 .btn> input{
@@ -14,4 +16,7 @@ fieldset{
 }
 .btn{
     text-align: center;
+}
+input {
+    margin-bottom: 2%;
 }
