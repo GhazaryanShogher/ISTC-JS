@@ -19,6 +19,7 @@ fieldset{
 }
 input {
     margin-bottom: 2%;
+    border-radius: 10px;
 }
 legend{
     padding: 3%;
