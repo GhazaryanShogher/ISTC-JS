@@ -1,0 +1,17 @@
+fieldset{
+    width: 15%;
+    margin: 0 auto;
+}
+
+.btn> input{
+    background-color: #556B2F;
+    border: none;
+    border: 1px solid green;
+    outline: none;
+    padding: 7px 45px;
+    margin-top: 6%;
+    color: white;
+}
+.btn{
+    text-align: center;
+}
