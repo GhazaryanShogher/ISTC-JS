@@ -30,3 +30,7 @@ legend{
 a{
     color:#556B2F;
 }
+form{    
+    display: flex;
+    flex-flow:column;
+}
