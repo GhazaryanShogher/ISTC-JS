@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    background-color: #333333;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.second-part{
+    background-color: #FA5C4F;
+}
+button{
+    background-color: #FA5C4F;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
