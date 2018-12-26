@@ -1,10 +1,12 @@
 nav{
     display: flex;
     background-color: #333333;
+    justify-content: space-around;
 }
 li{
     list-style: none;
     display: inline-block;
+    color: #FA5C4F;
 }
 .second-part{
     background-color: #FA5C4F;
