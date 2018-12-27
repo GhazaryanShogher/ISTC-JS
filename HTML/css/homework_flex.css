@@ -88,3 +88,13 @@ nav button{
 .about{
     display: flex;
 }
+.with-icon img{
+    width: 30px;
+    height: 30px;
+    padding: 33px;
+    border-radius: 65px;
+    border: 2px solid #404040;
+}
+footer{
+    display: flex;
+}
