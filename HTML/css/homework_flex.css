@@ -1,12 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex-contenair{
+    display: flex;
+    flex-direction: column;
+}
 nav{
     display: flex;
     background-color: #333333;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+}
+ul{
+    display: flex;
 }
 li{
     list-style: none;
     display: inline-block;
     color:white;
+    padding: 10px;
 }
 .second-part{
     background-color: #FA5C4F;
@@ -16,7 +30,61 @@ button{
     outline: none;
     border: none;
     border-radius: 7px;
+    height: 40px;
 }
 footer{
     color: antiquewhite;
+}
+nav img{
+    flex: 1;
+    height: 50px;
+}
+nav ul{
+     flex: 10;
+}
+nav button{
+    flex: 1;
+    color: antiquewhite;
+    margin-right: 1.5%;
+}
+.second-part{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    align-items: baseline;
+    justify-content: center;
+    display: inline-flex;
+    color: aliceblue;
+}
+.item-second{
+    width: 40%;
+    justify-items: baseline;
+    text-align: center;
+    margin: auto;
+}
+.item-second button{
+    height: 40px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 25%;
+    margin-right: 2%;
+}
+.btn-white{
+    background-color: white;
+    color: grey;
+
+}
+.btn-first{
+    color: white;
+}
+.with-icon{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center
+}
+.about{
+    display: flex;
 }
