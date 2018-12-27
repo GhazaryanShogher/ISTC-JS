@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: transform 1s, width 2s, height 1s, background 2s;
+  }
+
+  div:hover{
+      transform: rotateZ(160deg);
+      width: 400px;
+      height: 300px;
+      background: green;
+  }
