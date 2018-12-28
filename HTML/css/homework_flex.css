@@ -94,7 +94,23 @@ nav button{
     padding: 33px;
     border-radius: 65px;
     border: 2px solid #404040;
+    margin: auto;
+    margin-top: 5%;
 }
 footer{
     display: flex;
+}
+.with-icon hr{
+    width: 75px;
+    height: 3px;
+    background-color: #fa5c4f;
+    border: none;
+    margin: 20px auto;
+}
+.wrench{
+    margin-bottom: 18px!important;
+}
+.with-icon p{
+    margin: auto;
+    width: 80%;
 }
