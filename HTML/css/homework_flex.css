@@ -118,3 +118,12 @@ footer, .links, .subscribe{
     border-radius: 0;
     color:white;
 }
+footer{
+    align-content: space-between; 
+}
+.links{
+    flex: 2;
+}
+.subscribe{
+    flex: 1;
+}
