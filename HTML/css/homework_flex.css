@@ -120,10 +120,20 @@ footer, .links, .subscribe{
 }
 footer{
     align-content: space-between; 
+    background-color: #333333;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
 }
 .links{
     flex: 2;
+    align-content: center;
 }
 .subscribe{
     flex: 1;
+}
+.links a{
+    color:white;
+    padding: 10px;
 }
