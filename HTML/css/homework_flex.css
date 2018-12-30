@@ -155,4 +155,13 @@ footer{
     .second-part{
         height: 450px;
     }
+    .about{
+        flex-direction: column;
+    }
+    footer .links{
+        flex-direction: column;
+    }
+    .links a{
+        padding: 3px 15px;
+    }
 }
