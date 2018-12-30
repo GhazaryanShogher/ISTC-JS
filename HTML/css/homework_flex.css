@@ -69,13 +69,13 @@ nav button{
     border: none;
     border: 1px solid white;
     border-radius: 7px;
-    width: 25%;
     margin-right: 2%;
 }
 .btns{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
 }
 .btn-white{
     background-color: white;
@@ -147,4 +147,12 @@ footer{
     color:white;
     padding: 20px 15px;
     text-decoration: none;
+}
+@media only screen and (max-width: 450px) {
+    .item-second button{
+        margin-right: 1%;
+    }
+    .second-part{
+        height: 450px;
+    }
 }
