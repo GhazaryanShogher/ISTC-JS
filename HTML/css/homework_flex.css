@@ -72,6 +72,11 @@ nav button{
     width: 25%;
     margin-right: 2%;
 }
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .btn-white{
     background-color: white;
     color: grey;
