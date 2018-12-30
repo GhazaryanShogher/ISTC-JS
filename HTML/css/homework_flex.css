@@ -148,7 +148,7 @@ footer{
     padding: 20px 15px;
     text-decoration: none;
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 650px) {
     .item-second button{
         margin-right: 1%;
     }
