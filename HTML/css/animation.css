@@ -6,9 +6,11 @@
     position: relative;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
 }
 
 @keyframes move {
      0%   {background-color:red; left:0px;}
-    100% {background-color:yellow; left:1270px;} 
+    100% {background-color:yellow; left: calc(100% - 100px);} 
   }
