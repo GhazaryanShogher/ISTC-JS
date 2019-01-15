@@ -23,6 +23,9 @@ li{
     color:white;
     padding: 10px;
 }
+i{
+    color: #333333;
+}
 .second-part{
     background-color: #FA5C4F;
 }
@@ -94,6 +97,9 @@ nav button{
 .about{
     display: flex;
 }
+.hidden{
+    display: none;
+}
 .with-icon img{
     width: 30px;
     height: 30px;
@@ -148,12 +154,31 @@ footer{
     padding: 20px 15px;
     text-decoration: none;
 }
+
 @media only screen and (max-width: 650px) {
     .item-second button{
-        margin-right: 1%;
+        margin-right: 5%;
+    }
+    nav button{
+        flex: 0;
+        padding: 2%;
+    }
+    .fa-bars{
+    color: white;
+    padding: 4%;
+    }
+    .hide{
+        display: none;
+    }
+    li{
+        display: block;
     }
     .second-part{
         height: 450px;
+    }
+    nav img{
+        position: relative;
+        left: -25%;
     }
     .about{
         flex-direction: column;
@@ -163,5 +188,15 @@ footer{
     }
     .links a{
         padding: 3px 15px;
+    }   
+    #menu{
+        background-color: #333333;
+        padding-left: 73%;
+    }
+
+    #menu a{
+        display: block;
+        color: white;
+        text-decoration: none;
     }
 }
