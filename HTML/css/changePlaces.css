@@ -1,0 +1,36 @@
+#red-circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+#black-circle {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes red {
+     0%   {left:0px; top:0px;}
+     25%  {left: 200px; top: 0px;}
+     50%  {left: 200px; top: 100px;}
+     75%  {left: 0px; top:  100px;}
+    100%  {left:0px; top:100px;} 
+  }
+  @keyframes black {
+    0%   {left:0px; top:100px;}
+    25%  {left: 0px; top: -25px;}
+    50%  {left: 0px; top: -50px;}
+    75%  {left: 0px; top: -75px;}
+   100%  {left: 0px; top: -100px;} 
+ }
