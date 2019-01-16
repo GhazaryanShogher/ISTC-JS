@@ -24,6 +24,7 @@ fieldset{
     display:none;
     padding: 4px;
     border: 3px solid #0a42a2e0;
+    margin-top: 5px;
 }
 #card p{
 animation: sideSlide .5s forwards;
