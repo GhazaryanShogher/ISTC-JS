@@ -38,36 +38,43 @@
             <input type="submit">
         </fieldset>       
     </form> -->
-    <form action="/">
+    <!-- <form > -->
         <fieldset>
             <legend>Registration page</legend>
             <label for="">Name
                 <div>
-                    <input type="text"  required>
+                    <input type="text"  name="name" required>
                 </div>
                 
             </label>
             <label for="">Email ID:
                 <div>
-                    <input type="email" required>
+                    <input type="email" name="email" required>
                 </div>
             </label>
             <label for="">Mobile No
                 <div>
-                    <input type="tel" maxlength="9">
+                    <input type="tel"  name="tel"maxlength="9">
                 </div>
             </label>
             <label for="">Password
                 <div>
-                    <input type="password">
+                    <input type="password" name="password">
                 </div>
             </label>
             <label >
                 <div class="btn">
-                    <input type="submit" value="Register">
+                    <button onclick="registration()">Submit</button>
                 </div>
             </label>
         </fieldset>
-    </form>
+    <!-- </form> -->
+    <div id="card">
+        <p>Business card</p>
+        <p id="name"></p>
+        <p id="email"></p>
+        <p id="tel"></p>
+    </div>
+    <script src="js/form.js"></script>
 </body>
 </html>
