@@ -17,15 +17,15 @@ function loadDoc() {
         if (this.readyState == 4 && this.status == 200) {
             var data = JSON.parse(this.responseText);
             arr.push(data);
-            arr.map((item, index) => {
+            arr.map((item, index) => {               
                 var ul = document.querySelector('ul');
-                var newli = document.createElement("LI");
-                for(key in item){
+                for(key in item){                    
+                    var newli = document.createElement("LI");
                     var text= document.createTextNode(item[key]);
-                    newli.appendChild(text);
-                    document.ul.appendChild(newli);
-                    return ul;
-                }     
+                    ul.appendChild(newli);
+                    newli.appendChild(text);                      
+                } 
+            return ul;                 
         });
     }
   };
