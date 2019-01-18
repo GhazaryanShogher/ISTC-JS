@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The XMLHttpRequest Object</h2>
+
+<button type="button" onclick="loadDoc()">Request data</button>
+
+<p id="demo"></p>
+<script>
+data = {
+    "userId": 5,
+    "id": 5,
+    "title": "Shogher",
+    "body": "Ghazaryan"
+  }
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
+  xhttp.setRequestHeader("Content-type", "application/json");
+  xhttp.send(data);
+}
+</script>
+
+</body>
+</html>
